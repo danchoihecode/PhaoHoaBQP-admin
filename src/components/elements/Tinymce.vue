@@ -2,7 +2,7 @@
   <div :class="props.classCustom">
     <editor
       ref="refEditor"
-      api-key="99rxzr58p6cwxgou09roj5adz4nmm01o55s9pxl27x66lm48"
+      api-key="0d51hm2ofutde7aud75kqad5ucbiihti83uuneu9ftzhv4rl"
       v-model="value"
       :init="init"
     />
