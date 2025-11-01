@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <BreadCrumb></BreadCrumb>
   <div class="search-container">
     <BaseButton :title="'Thêm bài viết'" :classStyle="'font-roboto'" :customStyle="'custom-btn-style'"
@@ -190,4 +190,8 @@ const gotoAdd = () => {
   font-size: 14px;
   color: #333;
 }
-</style>
+</style> -->
+<template>
+  <div>Mở rộng trong tương lai</div>
+</template>
+<script setup></script>
