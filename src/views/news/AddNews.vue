@@ -55,16 +55,6 @@
           />
         </div>
       </div>
-      <div class="input-container">
-        <div class="input-title">{{ t('ID sản phẩm') }}</div>
-        <div class="col-span-3">
-          <InputText
-            v-model="item.product_id"
-            name="news_product_id"
-            placeholder="ID sản phẩm"
-          />
-        </div>
-      </div>
     </Content>
     <div class="flex items-center justify-center mt-4">
       <BaseButton
@@ -112,7 +102,7 @@ const item = ref({
   category: '',
   content: '',
   release_date: '',
-  product_id: '',
+  product_id: 94,
 });
 
 const submitForm = async () => {

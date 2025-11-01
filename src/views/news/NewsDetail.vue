@@ -32,12 +32,6 @@
           <InputText v-model="item.release_date" name="news_release_date" placeholder="Ngày phát hành" type="date" />
         </div>
       </div>
-      <div class="input-container">
-        <div class="input-title">{{ t('ID sản phẩm') }}</div>
-        <div class="col-span-3">
-          <InputText v-model="item.product_id" name="news_product_id" placeholder="ID sản phẩm" />
-        </div>
-      </div>
     </div>
   </Content>
   <div class="flex items-center justify-center mt-4">
