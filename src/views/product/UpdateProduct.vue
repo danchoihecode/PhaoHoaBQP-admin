@@ -355,6 +355,8 @@ const updateProduct = async () => {
     formData.append(`additional_info[${i}][content]`, infoList.value[i].description);
   }
 
+  formData.append('publish', isHidden.value ? 0 : 1);
+
   for (let i = 0; i < imageList.length; i++) {
     if (imageList[i].id)
       formData.append(`images[${i}][id]`, imageList[i].id);
