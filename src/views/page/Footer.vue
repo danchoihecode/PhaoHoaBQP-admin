@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <BreadCrumb></BreadCrumb>
   <div class="flex flex-col">
     <div class="flex justify-between">
@@ -148,4 +148,8 @@ input:not(:placeholder-shown)+label {
   transform: translateY(-18px);
   font-size: 13px;
 }
-</style>
+</style> -->
+<template>
+  <div>Mở rộng trong tương lai</div>
+</template>
+<script setup></script>
