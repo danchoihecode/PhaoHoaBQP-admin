@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <BreadCrumb></BreadCrumb>
   <Content style="border: none;">
     <BaseTable :headers="headers" :items="paginatedItems">
@@ -115,4 +115,8 @@ const updateRowsPerPage = (newRowsPerPage) => {
   font-size: 14px;
   color: #333;
 }
-</style>
+</style> -->
+<template>
+  <div>Mở rộng trong tương lai</div>
+</template>
+<script setup></script>
